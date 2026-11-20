@@ -65,3 +65,4 @@ Lead with anything FAILED or NOTHING_RETURNED.
 
 ## With the indahl.ai connector
 
+This plugin connects the indahl.ai verify server (`https://indahl.ai/mcp/verify`, read-only, no account). When its tool `verify_landed` is available, run the computable part of the check with it and report the tool's outcome and reason as returned, then do the reading the tool cannot do. The tool reads only what is passed to it and public sources; it never sees local files unless their text is passed.
